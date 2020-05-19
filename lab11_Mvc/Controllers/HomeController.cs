@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using lab11_Mvc.Models;
 
 namespace lab11_Mvc.Controllers
 {
@@ -11,9 +12,11 @@ namespace lab11_Mvc.Controllers
     {
         public IActionResult Index()
         {
+            List<PersonOfTheYear> personList = Models.PersonOfTheYear.Getperson();
+
             PersonOfTheYear viewModel = new PersonOfTheYear();
             {
-
+                PersonOfTheYear = personList;
 
             }
 

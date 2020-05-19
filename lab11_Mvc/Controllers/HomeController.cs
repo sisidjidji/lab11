@@ -10,7 +10,18 @@ namespace lab11_Mvc.Controllers
     {
         public IActionResult Index()
         {
+            personOfTheYear viewModel = new personOfTheYear();
+            {
+
+            }
+
+            return View(viewModel);
+        }
+
+        public IActionResult Result()
+        {
             return View();
         }
+
     }
 }

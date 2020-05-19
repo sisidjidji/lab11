@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace lab11_Mvc.Models
 {
-    public class ProsonOfTheYear
+    public class PersonOfTheYear
     {
 		public int Year { get; set; }
 		public string Honor { get; set; }

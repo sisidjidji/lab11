@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using lab11_Mvc.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +11,9 @@ namespace lab11_Mvc.Controllers
     {
         public IActionResult Index()
         {
-            personOfTheYear viewModel = new personOfTheYear();
+            PersonOfTheYear viewModel = new PersonOfTheYear();
             {
+
 
             }
 
